@@ -3,7 +3,14 @@
   "name": "twitter-to-nitter",
   "description": "An extension to redirect twitter links to nitter.",
   "permissions": ["declarativeNetRequest"],
-  "host_permissions": ["*://x.com/*"],
+  "host_permissions": [
+    "*://x.com/*",
+    "*://twitter.com/*",
+    "*://vxtwitter.com/*",
+    "*://fxtwitter.com/*",
+    "*://fixupx.com/*",
+    "*://stupidpenisx.com/*"
+  ],
   "declarative_net_request": {
     "rule_resources": [
       {

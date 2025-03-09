@@ -5,9 +5,19 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "transform": { "scheme": "https", "host": "nitter.net" }
+        "transform": { "scheme": "https", "host": "nitter.net", "query": "" }
       }
     },
-    "condition": { "urlFilter": "||x.com/", "resourceTypes": ["main_frame"] }
+    "condition": {
+      "requestDomains": [
+        "x.com",
+        "twitter.com",
+        "vxtwitter.com",
+        "fxtwitter.com",
+        "fixupx.com",
+        "stupidpenisx.com"
+      ],
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]
