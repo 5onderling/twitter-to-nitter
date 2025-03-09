@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": { "scheme": "https", "host": "nitter.net" }
+      }
+    },
+    "condition": { "urlFilter": "||x.com/", "resourceTypes": ["main_frame"] }
+  }
+]

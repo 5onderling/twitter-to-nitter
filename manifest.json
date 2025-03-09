@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "name": "twitter-to-nitter",
+  "description": "An extension to redirect twitter links to nitter.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://x.com/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "manifest_version": 3
+}
